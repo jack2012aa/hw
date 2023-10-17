@@ -55,7 +55,7 @@ Proof of $(1+\frac{1}{n})^n < n$
 5. The first n - 1 terms of step 4 are bigger than those in step 3. The last term in step 4: $n^n$, is absolutely bigger than the sum of nth and (n+1)th terms in step 3. In other words, $C^n_{n-1}*n+1 = n^2+1 < n^n$ for $n\geq3$.
 
 Proof of that sequence $\lbrace n^{\frac{1}{n}}\rbrace ^\infty_{n=3}$ is decreasing.
-1. The statement equivalences to $\frac{1}{n} * \log {n}$ is decreasing, which equivalences to $\frac{1}{n+1}*\log{(n+1)}<\frac{1}{n}*\log{n}\equiv\log_n{n+1}<\frac{n+1}{n}$. 
+1. The statement equivalences to $\frac{1}{n}*\log{n}$ is decreasing, which equivalences to $\frac{1}{n+1}*\log{(n+1)}<\frac{1}{n}*\log{n}\equiv\log_n{n+1}<\frac{n+1}{n}$. 
 2. Assume that $\log_n{n+1}\geq\frac{n+1}{n}$:
 3. $\equiv \log_n{(n+1)} - 1 = \log_n{\frac{n+1}{n}} \geq \frac{1}{n}$
 4. $\equiv n*\log_n{\frac{n+1}{n}} = \log_n{(\frac{n+1}{n})^n \geq 1}$
