@@ -49,7 +49,7 @@ Assume that a > b. Then the greatest number in this game is a. Say that a = r * 
 
 Proof of $(1+\frac{1}{n})^n < n$
 1. $(1+\frac{1}{n})^n = (\frac{n+1}{n})^n = \frac{(n+1)^n}{n^n}$
-2. Proving $(1+\frac{1}{n})^n < n$ equals to prove $(n+1)^n<n^{n+1}$
+2. Proving $(1+\frac{1}{n})^n < n$ equals to prove $(n+1)^n <  n^{n+1}$
 3. $(n+1)^n = n^n+C^n_1*n^{n-1}+...+C^n_{n-1}*n+1$
 4. $n^{n+1} = n^n + n*n^{n-1}+...+n^{n-1}*n $
 5. The first n - 1 terms of step 4 are bigger than those in step 3. The last term in step 4: $n^n$, is absolutely bigger than the sum of nth and (n+1)th terms in step 3. In other words, $C^n_{n-1}*n+1 = n^2+1 < n^n$ for $n\geq3$.
